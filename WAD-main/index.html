@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">                                                                                          <!--tells the browser to use the utf-8 character encoding when translating machine code into human-readable text and vice versa to be displayed in the browser-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">                                                           <!--to tell Microsoft Internet Explorer to use the latest rendering engine -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">                                          <!--gives the browser instructions on how to control the page's dimensions and scaling-->
+    <title>Travel Lanka (PVT) Ltd.</title>                                                                          <!--Title of the Web Page-->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">       <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="style.css">                                                                        <!-- custom css file link  -->
+    <script src="script.js" defer></script>                                                                         <!-- custom js file link  -->
+</head>
+
+<body>
+    
+<!-- header section starts  -->
+<header class="header">
+    <div id="menu-btn" class="fas fa-bars"></div>
+    <a href="#" class="logo"> <i class="fas fa-paper-plane"></i>travel lanka</a>                                    <!--Logo of the Web site created by using class logo-->
+    <!--navigationa bar starts-->
+    <nav class="navbar">                                                                                            
+        <a href="#home">home</a>                                                                                    <!--Link the home page-->
+        <a href="#tour">tours</a>                                                                                   <!--Link the tour page-->
+        <a href="#services">services</a>                                                                             <!--Link the services page-->
+        <a href="#gallery">gallery</a>                                                                              <!--Link the gallery page-->
+        <a href="#blogs">blogs</a>                                                                                  <!--Link the blogs page-->
+    </nav>
+    <!--navigationa bar ends-->
+    <a href="login.php" class="btn">Connect with us</a>                                                       <!--create button called connect with us and link the login php file-->                                                       
+    <a href="About Us/index.html" class="btn">About Us</a>                                                          <!--create button called about us and link the about us file-->
+    <a href="Contact Us/index.html" class="btn">Contact us</a>                                                      <!--create button called contact us and link the contact file-->
+</header>
+<!-- header section ends -->
+
+<!-- home section starts  -->
+<section class="home" id="home">
+    <div class="content">
+        <span>Welcome to</span>                                                                                     <!--Welcome to text used to mark up a part of a text using span tags-->                                                                       
+        <h3>Sri Lanka</h3>                                                                                          <!--main heading of the home page-->
+        <p>Explore the Srilanka, The beauty of Indian Ocean<br> Adventure awaits you to remark                      <!--create a small paragraph-->
+           your life most beautiful</p>
+        <a href="Packages/Packages.html" class="btn">packages</a>                                                   <!--create a package button and link the package file-->
+        <a href="booking.php" class="btn">Book Now</a>
+        <a href="FAQ2/index.html" class="btn">FAQ</a>                                                               <!--create a FAQ button and link the faq file-->
+    </div>
+</section>
+<!-- home section ends -->
+
+
+<!-- about section starts  -->
+<section class="about" id="about">
+    <div class="video-container">                                                                                   <!--create a video slider-->
+        <video src="images/about-vid-1.mp4" muted autoplay loop class="video"></video>                              <!--import video soruce-->
+        <div class="controls">
+            <span class="control-btn" data-src="images/about-vid-1.mp4"></span>                                     <!--import a video 1 to slide 1-->
+            <span class="control-btn" data-src="images/about-vid-2.mp4"></span>                                     <!--import a video 2 to slide 2-->
+            <span class="control-btn" data-src="images/about-vid-3.mp4"></span>                                     <!--import a video 3 to slide 3-->
+        </div>
+    </div>
+
+    <div class="content">
+        <span>why choose us?</span>                                                                                 <!--"why choose us" text used to mark up a part of a text using span tags-->
+        <h3>Nature's Majesty Awaits You</h3>                                                                        <!--create a heading "Nature's Majesty Awaits you"-->
+        <p>Sri Lanka is one of the most bio-diverse islands in the world and one of the best countries in           <!--create a paragraph-->
+           Asia to spot elusive animals such as elephants and leopards, making it a haven for wildlife lovers. 
+           There are numerous reserves and national parks that provide some incredibly memorable 
+           safari experiences.</p>
+        <a href="Sri Lanka Biodiversity.pdf" class="btn">read more</a>                                              <!--create a button called read more and link pdf file-->
+    </div>
+</section>
+<!-- about section ends -->
+
+<!-- tour section starts  -->
+<section class="destination" id="tour">                                                                             
+    <div class="heading">
+        <span>our tours</span>                                                                                      <!--"our tags" text used to mark up a part of a text using span tags-->
+        <h1>make yours destination</h1>                                                                             <!--craete a heading-->
+    </div>
+
+    <div class="box-container">
+        <div class="box">
+            <div class="image">
+                <img src="images/des-1.jpg" alt="">                                                                         <!--import image file-->
+            </div>
+            <div class="content">
+                <h3>Nuwara Eliya</h3>                                                                                       <!--create a heading called "Nuwara Eliya"-->                             
+                <p>Nuwara Eliya is a city in the tea country hills of central Sri Lanka.</p>                                <!--create a paragraph about Nuwara Eliya-->
+                <a href="https://en.wikipedia.org/wiki/Nuwara_Eliya">read more <i class="fas fa-angle-right"></i></a>       <!--create a read more hyperlink and link to wikipedia -->
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/des-2.jpg" alt="">                                                                          <!--import image file-->     
+            </div>
+            <div class="content">
+                <h3>Mirissa</h3>                                                                                             <!--create a heading called "Mirissa"-->
+                <p>Mirissa is a small town on the south coast of Sri Lanka.</p>                                              <!--create a paragraph about Mirissa-->
+                <a href="https://en.wikipedia.org/wiki/Mirissa">read more <i class="fas fa-angle-right"></i></a>             <!--create a read more hyperlink and link to wikipedia -->
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/des-3.jpg" alt="">                                                                          <!--import image file-->
+            </div>
+            <div class="content">
+                <h3>Adam's Peak</h3>                                                                                         <!--create a heading called "Adam's peak"-->
+                <p>Adam's Peak is a 2,243 m tall conical mountain located in central Sri Lanka.</p>                          <!--create a paragraph about "Adam's peak"-->
+                <a href="https://en.wikipedia.org/wiki/Adam%27s_Peak">read more <i class="fas fa-angle-right"></i></a>       <!--create a read more hyperlink and link to wikipedia -->
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/des-4.jpg" alt="">                                                                          <!--import image file-->
+            </div>
+            <div class="content">
+                <h3>Sigiriya</h3>                                                                                            <!--create a heading called "Sigiriya"-->
+                <p>Sigiriya or Sinhagiri is an ancient rock fortress located in the Matale District.</p>                     <!--create a paragraph about Sigiriya-->
+                <a href="https://en.wikipedia.org/wiki/Sigiriya">read more <i class="fas fa-angle-right"></i></a>            <!--create a read more hyperlink and link to wikipedia -->
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/des-5.jpg" alt="">                                                                          <!--import image file-->
+            </div>
+            <div class="content">   
+                <h3>Galle</h3>                                                                                               <!--create a heading called "Galle"-->
+                <p>Galle is a city on the southwest coast of Sri Lanka. </p>                                                 <!--create a paragraph about Galle-->
+                <a href="https://en.wikipedia.org/wiki/Galle">read more <i class="fas fa-angle-right"></i></a>               <!--create a read more hyperlink and link to wikipedia -->
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">                                                                     
+                <img src="images/des-6.jpg" alt="">                                                                          <!--import image file-->
+            </div>
+            <div class="content">
+                <h3>Hikkaduwa</h3>                                                                                           <!--create a heading called "Hikkaduwa"-->
+                <p>Hikkaduwa is a seaside resort town in southwestern Sri Lanka.</p>                                         <!--create a paragraph about Hikkaduwa-->
+                <a href="https://en.wikipedia.org/wiki/Hikkaduwa">read more <i class="fas fa-angle-right"></i></a>           <!--create a read more hyperlink and link to wikipedia -->
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/des-7.jpg" alt="">                                                                          <!--import image file-->
+            </div>
+            <div class="content">
+                <h3>Anuradhapura</h3>                                                                                        <!--create a heading called "Anuradhapura"-->
+                <p>Anuradhapura is a major city in Sri Lanka.</p>                                                            <!--create a paragraph about Anuradhapura-->
+                <a href="https://en.wikipedia.org/wiki/Anuradhapura">read more <i class="fas fa-angle-right"></i></a>        <!--create a read more hyperlink and link to wikipedia -->
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/des-8.jpg" alt="">                                                                         <!--import image file-->
+            </div>
+            <div class="content">
+                <h3>Polonnaruwa</h3>                                                                                        <!--create a heading called "Pollonnaruwa"-->
+                <p>Poḷonnaruwa is the main town of Polonnaruwa District.</p>                                                <!--create a paragraph about Pollonnaruwa-->
+                <a href="https://en.wikipedia.org/wiki/Polonnaruwa">read more <i class="fas fa-angle-right"></i></a>        <!--create a read more hyperlink and link to wikipedia -->
+            </div>
+        </div>
+    </div>
+</section>
+<!-- tour section ends -->
+
+<!-- services section starts  -->
+<section class="services" id="services">
+    <div class="heading">
+        <span>our services</span>
+        <h1>Makes your with better expericences</h1>
+    </div>
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-globe"></i>
+            <h3>country wide</h3>
+            <p>Our site support country wide service to you. <br>To makee your life better</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-hiking"></i>
+            <h3>adventures</h3>
+            <p>Come and see Adventure awaits you. <br>make your life adventourous.</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-utensils"></i>
+            <h3>food & drinks</h3>
+            <p>We provide you quality foods and drinks. Quality foods and drinks make you perfect.</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-hotel"></i>
+            <h3>affordable hotels</h3>
+            <p>We provide you quality five star hotels. <br> It makes you to feel better.</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-wallet"></i>
+            <h3>affordable price</h3>
+            <p>All services are provides you with low cost and high quality.</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-headset"></i>
+            <h3>24/7 support</h3>
+            <p>Our customer services available in 24 hours in every day.</p>
+        </div>
+    </div>
+</section>
+<!-- services section ends -->
+
+<!-- gallery section starts  -->
+<section class="gallery" id="gallery">
+
+    <div class="heading">
+        <span>our gallery</span>
+        <h1>we record memories</h1>
+    </div>
+    
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/gallery-img-1.jpg" alt="">
+            <span>travel lanka</span>
+            <h3>galle</h3>
+        </div>
+
+        <div class="box">
+            <img src="images/gallery-img-2.jpg" alt="">
+            <span>travel lanka</span>
+            <h3>nuwara eliya</h3>
+        </div>
+
+        <div class="box">
+            <img src="images/gallery-img-3.jpg" alt="">
+            <span>travel lanka</span>
+            <h3>mirissa</h3>
+        </div>
+
+        <div class="box">
+            <img src="images/gallery-img-10.jpg" alt="">
+            <span>travel lanka</span>
+            <h3>Hikkaduwa</h3>
+        </div>
+
+        <div class="box">
+            <img src="images/gallery-img-4.jpg" alt="">
+            <span>travel lanka</span>
+            <h3>nuwara eliya</h3>
+        </div>
+
+        <div class="box">
+            <img src="images/gallery-img-5.jpg" alt="">
+            <span>travel lanka</span>
+            <h3>sigiriya</h3>
+        </div>
+
+        <div class="box">
+            <img src="images/gallery-img-6.jpg" alt="">
+            <span>travel lanka</span>
+            <h3>hikkaduwa</h3>
+        </div>
+
+        <div class="box">
+            <img src="images/gallery-img-7.jpg" alt="">
+            <span>travel lanka</span>
+            <h3>Mirissa</h3>
+        </div>
+
+        <div class="box">
+            <img src="images/gallery-img-8.jpg" alt="">
+            <span>travel lanka</span>
+            <h3>Sigiriya</h3>
+        </div>
+
+        <div class="box">
+            <img src="images/gallery-img-9.jpg" alt="">
+            <span>travel lanka</span>
+            <h3>Galle</h3>
+        </div>
+    </div>
+</section>
+<!-- gallery section ends -->
+
+<!-- review section starts  -->
+<section class="review">
+
+    <div class="content">
+        <span>Reviews</span>
+        <h3>good news from our clients</h3>
+    </div>
+
+    <div class="box-container">
+
+        <div class="box">
+            <p>I contacted Travel Lanka online about our planned family trip to SriLanka for 3 days. Our driver was fantastic. Good communication skill with 
+            English and very safe driver. Travel Lanka is a best travel guide around Sri Lanka.</p>
+            <div class="user">
+                <img src="images/pic-1.jpg" alt="">
+                <div class="info">
+                    <h3>Anthony Lopez</h3>
+                    <span>From UAE</span>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <p>It was amazing experience the visit in Sri Lanka actually we have planned small budget and when reviewed in google I got a good review
+            of Travel Lanka.</p>
+            <div class="user">
+                <img src="images/pic-2.jpg" alt="">
+                <div class="info">
+                    <h3>Sanath Perera</h3>
+                    <span>From Canada</span>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <p>We felt like had your attention all to ourselves during our visit to Sri Lanka. You had arranged our tour and created to all our needs
+            as well as developed a personalized tour with our own guides and driver which was a privilege that we will not forget. Thank you so much.</p>
+            <div class="user">
+                <img src="images/pic-3.png" alt="">
+                <div class="info">
+                    <h3>Mitchell Fernandez</h3>
+                    <span>From USA</span>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <p>When I drop a massege the reply was so fast and all the arrangement in mail was amazing Disna the tour consultant was quite directed me 
+            and in entire trip. Thank you very much Travel Lanka. </p>
+            <div class="user">
+                <img src="images/pic-4.jpg" alt="">
+                <div class="info">
+                    <h3>Emma Darcy</h3>
+                    <span>From Grmany</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+<!-- review section ends -->
+
+<!-- blogs section starts  -->
+<section class="blogs" id="blogs">
+
+    <div class="heading">
+        <span>blogs & posts</span>
+        <h1>we untold stories</h1>
+    </div>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="image">
+                <img src="images/blog-1.jpg" alt="">
+            </div>
+            <div class="content">
+                <a href="#" class="link">Sri Lanka is the best</a>
+                <p>Sri Lanka: an Isle of mystery, history, culture, and unparalleled beauty. A place of transcendence, inspiration, and strength, 
+                    just like you. Let your stars define your past, let adventure be your present that helps shape your future, bringing out your 
+                    Sapphire Spirit wherever you go. Explore the world's finest Sapphires, in one of the world's finest Islands, here in Sri Lanka.​</p>
+                <div class="icon">
+                    <a href="#"><i class="fas fa-clock"></i> 21st may, 2021</a>
+                    <a href="#"><i class="fas fa-user"></i> by Tourism Sri Lanka</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/blog-2.jpg" alt="">
+            </div>
+            <div class="content">
+                <a href="#" class="link">Elephant orphanage</a>
+                <p>1st May - As many Elephants are living in the wild of Sri Lanka, Pinnawala Elephant Orphanage is providing the treatments and the necessary care for the Elephants that get injured, wounded, diseased or be abandoned before weaning in the wild due to various circumstances. The orphanage was established in 1975 by the wildlife department of Sri Lanka. Today we we able to view the elephants taking their daily visit to the river where they were able 
+                   to relax and play and get splashed with water jets by the rangers. We learnt a lot about the workings of the orphanage and the Sri Lanken elephants from Dilip.
+                   Fascinating to see the elephants when they knew it was time to return to the orphanage slowly walking to the street, closely followed by Dilip.</p>
+                <div class="icon">
+                    <a href="#"><i class="fas fa-clock"></i> 1st may, 2021</a>
+                    <a href="#"><i class="fas fa-user"></i> by BevsBlogg</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/blog-3.jpg" alt="">
+            </div>
+            <div class="content">
+                <a href="#" class="link">Sri Lanka Ella to Kandy</a>
+                <p>Move from Ella to Kandy today by train. 
+                   Heavy rain during the night. Woke at 7.00 am, stirred at 7.45 am and down to breakfast. Eggs, toast, roti, plenty of fruit and cups of tea.
+                   Our train is 2.15 pm and check out is 12.00 pm. So when we paid our bill USD 39.12 (GBP 30.09) we asked about keeping the room for a little while. She said she had no booking for tonight, so no problem. We also asked them to book us a Tuktuk to the station.</p>
+                <div class="icon">
+                    <a href="#"><i class="fas fa-clock"></i> 22nd february, 2020</a>
+                    <a href="#"><i class="fas fa-user"></i> by Steamy</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- blogs section ends -->
+
+<!-- banner section starts  -->
+<div class="banner">
+
+    <div class="content">
+        <span>start your adventures</span>
+        <h3>Let's Explore Sri Lanka</h3>
+        <p>Get back to nature with adventure travel in Sri Lanka. We've selected our favourite outdoor activities in Sri Lanka, including the best tours and trips that you can experience on your holiday.</p>
+        <a href="Sri Lanka Adventure.pdf" class="btn">find now</a>
+    </div>
+
+</div>
+<!-- banner section ends -->
+
+<!-- footer section starts  -->
+<section class="footer" id="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <a href="#" class="logo"> <i class="fas fa-paper-plane"></i>travel lanka </a>
+            <p>We are travel destination management company in Sri Lanka. Focusing on private authentic tailor made tours.</p>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#home" class="links"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="#about" class="links"> <i class="fas fa-arrow-right"></i> about </a>
+            <a href="#tour" class="links"> <i class="fas fa-arrow-right"></i> tours </a>
+            <a href="#services" class="links"> <i class="fas fa-arrow-right"></i> services </a>
+            <a href="#gallery" class="links"> <i class="fas fa-arrow-right"></i> gallery </a>
+            <a href="#blogs" class="links"> <i class="fas fa-arrow-right"></i> blogs </a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <p> <i class="fas fa-map"></i> colombo, sri lanka </p>
+            <p> <i class="fas fa-phone"></i> 011-2245287 | 071-6738915  </p>
+            <p> <i class="fas fa-envelope"></i> travellanka@gmail.com </p>
+            <p> <i class="fas fa-clock"></i> 7:00am - 10:00pm </p>
+        </div>
+
+        <div class="box">
+            <h3>newsletter</h3>
+            <p>subscribe for latest updates</p>
+            <form action="">
+                <input type="email" name="" placeholder="enter your email" class="email" id="">
+                <input type="submit" value="subscribe" class="btn">
+            </form>
+        </div>
+
+    </div>
+
+</section>
+
+<div class="credit">created by <span>Travel Lanka (PVT) Ltd</span> | all rights reserved!</div>
+
+<!-- footer section ends -->
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+<script>
+
+    AOS.init({
+        duration: 800,
+        offset:150,
+    });
+
+</script>
+
+</body>
+</html>

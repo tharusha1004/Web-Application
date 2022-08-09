@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+
+    <title>FAQ</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <main>
+
+        <h1 class="faq-heading">Frequently Asked Questions</h1>
+          <section class="faq-container">
+            <div>
+
+                
+                <h1 class="faq-page">Where is Sri Lanka situated ?</h1>
+
+                <div class="faq-body">
+                    <p>It's in the South-east region of Asia. Just below India a tear drop shaped island is Sri Lanka. Sri Lanka lies between					the northern latitudes 5° 55. and 9° 55. and the eastern longitudes 79° 42. and 81° 52., 650km north of the equator.</p>
+                </div>
+            </div>
+            <hr class="hr-line">
+
+
+            <div>
+                <h1 class="faq-page">The best time to visit Sri Lanka ?</h1>
+                <div class="faq-body">
+                    <p>Sri Lanka is a tropical country with almost the same season all year long except for monsoon seasons kicking off at different 					times during the year, despite showers a warm sunny climate is always guaranteed.</p>
+                </div>
+            </div>
+            <hr class="hr-line">
+
+	  <div>
+                <h1 class="faq-page">What about accomadation? Where can I stay when I visit Sri Lanka ?</h1>
+                <div class="faq-body">
+                    <p>The options are again endless here , five-star hotels, motels, resorts, bungalows and villas ( which are rented out according to your needs ), 			guest houses and many more places can be used for accomadation usually you can voice your opinions and requests to your tour agents and they 			will undertake the arrangements.</p>
+                </div>
+            </div>
+            <hr class="hr-line">
+
+
+
+	 <div>
+                <h1 class="faq-page">What sites can I visit ?</h1>
+                <div class="faq-body">
+                    <p>Well the options are endless, there are loads of Archeological sites, ancient ruins, nature reserves, beaches and pleanty more. UNESCO has named many places in Sri Lanka as World Heritage Sites such as Anuradhapura and Polonnaruwa. You can also go shopping in the great city of Colombo, where malls and stores are endless.</p>
+                </div>
+            </div>
+            <hr class="hr-line">
+           
+
+	<div>
+                <h1 class="faq-page">What will be the benefits of visiting Sri Lanka ?</h1>
+                <div class="faq-body">
+                    <p>There are lots of benefits in visiting Sri Lanka. First, it is a great place to regroup during the vacation after a very hectic lifestyle. It also provides the best way to be connected with nature with all the eco-tourism going on. Touring Sri Lanka, you can get the first-hand taste in the culture which is very vibrant and most of all awe-striking. These are just a few of the many benefits that I can list.</p>
+                </div>
+            </div>
+            
+
+
+        </section>
+    </main>
+    <script>
+
+	var faq = document.getElementsByClassName("faq-page");
+	var i;
+
+	for (i = 0; i < faq.length; i++) 
+	{
+    	faq[i].addEventListener("click", function () 
+	{
+        this.classList.toggle("active");
+        var body = this.nextElementSibling;
+        if (body.style.display === "block") {
+            body.style.display = "none";
+        } else {
+            body.style.display = "block";
+        }
+    });
+}
+</script>
+</body>
+
+
+</html>
